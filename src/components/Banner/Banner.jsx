@@ -4,13 +4,20 @@ import tesart from '../../assets/dop.webp';
 
 const Banner = () => {
     return (
-        <div className='flex justify-between items-center'>
-            <div>
-                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</h1>
-                <button className='btn btn-primary'>test test</button>
-            </div>
-            <div>
-                <img className='w-100 h-100' src={tesart} alt="" />
+        <div className="hero bg-base-200 min-h-screen">
+            <div className="hero-content flex-col lg:flex-row-reverse">
+                <img
+                    src={tesart}
+                    className="max-w-sm rounded-lg shadow-2xl"
+                />
+                <div>
+                    <h1 className="text-5xl font-bold">Box Office News!</h1>
+                    <p className="py-6">
+                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                        quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    </p>
+                    <button className="btn btn-primary">Get Started</button>
+                </div>
             </div>
         </div>
     );

@@ -1,22 +1,142 @@
 [
-    { "id": 1, "name": "Elegant Red Gown", "price": 3500, "review": 120, "rating": 4.5 },
-    { "id": 2, "name": "Classic Black Saree", "price": 2800, "review": 95, "rating": 4.3 },
-    { "id": 3, "name": "Floral Summer Dress", "price": 2200, "review": 80, "rating": 4.2 },
-    { "id": 4, "name": "Stylish Party Wear", "price": 4000, "review": 150, "rating": 4.7 },
-    { "id": 5, "name": "Casual Cotton Kurti", "price": 1800, "review": 60, "rating": 4.1 },
-    { "id": 6, "name": "Modern Anarkali Suit", "price": 3200, "review": 110, "rating": 4.6 },
-    { "id": 7, "name": "Blue Denim Dress", "price": 2600, "review": 75, "rating": 4.0 },
-    { "id": 8, "name": "Pink Bridal Lehenga", "price": 8500, "review": 45, "rating": 4.8 },
-    { "id": 9, "name": "White Embroidered Gown", "price": 5000, "review": 98, "rating": 4.4 },
-    { "id": 10, "name": "Green Silk Saree", "price": 4200, "review": 130, "rating": 4.6 },
-    { "id": 11, "name": "Chiffon Maxi Dress", "price": 3100, "review": 70, "rating": 4.2 },
-    { "id": 12, "name": "Party Wear Sharara", "price": 3700, "review": 85, "rating": 4.3 },
-    { "id": 13, "name": "Casual Printed Kurti", "price": 1500, "review": 55, "rating": 4.0 },
-    { "id": 14, "name": "Luxury Velvet Gown", "price": 6200, "review": 40, "rating": 4.7 },
-    { "id": 15, "name": "Trendy Off-Shoulder Dress", "price": 2900, "review": 92, "rating": 4.4 },
-    { "id": 16, "name": "Designer Net Saree", "price": 5400, "review": 67, "rating": 4.5 },
-    { "id": 17, "name": "Traditional Kameez Set", "price": 3300, "review": 88, "rating": 4.3 },
-    { "id": 18, "name": "Stylish Long Frock", "price": 2100, "review": 73, "rating": 4.1 },
-    { "id": 19, "name": "Premium Party Gown", "price": 7200, "review": 58, "rating": 4.6 },
-    { "id": 20, "name": "Elegant Evening Dress", "price": 3900, "review": 102, "rating": 4.5 }
+    {
+        "dressId": 1,
+        "name": "Elegant Red Gown",
+        "price": 3500,
+        "review": 120,
+        "rating": 4.5
+    },
+    {
+        "dressId": 2,
+        "name": "Classic Black Saree",
+        "price": 2800,
+        "review": 95,
+        "rating": 4.3
+    },
+    {
+        "dressId": 3,
+        "name": "Floral Summer Dress",
+        "price": 2200,
+        "review": 80,
+        "rating": 4.2
+    },
+    {
+        "dressId": 4,
+        "name": "Stylish Party Wear",
+        "price": 4000,
+        "review": 150,
+        "rating": 4.7
+    },
+    {
+        "dressId": 5,
+        "name": "Casual Cotton Kurti",
+        "price": 1800,
+        "review": 60,
+        "rating": 4.1
+    },
+    {
+        "dressId": 6,
+        "name": "Modern Anarkali Suit",
+        "price": 3200,
+        "review": 110,
+        "rating": 4.6
+    },
+    {
+        "dressId": 7,
+        "name": "Blue Denim Dress",
+        "price": 2600,
+        "review": 75,
+        "rating": 4.0
+    },
+    {
+        "dressId": 8,
+        "name": "Pink Bridal Lehenga",
+        "price": 8500,
+        "review": 45,
+        "rating": 4.8
+    },
+    {
+        "dressId": 9,
+        "name": "White Embroidered Gown",
+        "price": 5000,
+        "review": 98,
+        "rating": 4.4
+    },
+    {
+        "dressId": 10,
+        "name": "Green Silk Saree",
+        "price": 4200,
+        "review": 130,
+        "rating": 4.6
+    },
+    {
+        "dressId": 11,
+        "name": "Chiffon Maxi Dress",
+        "price": 3100,
+        "review": 70,
+        "rating": 4.2
+    },
+    {
+        "dressId": 12,
+        "name": "Party Wear Sharara",
+        "price": 3700,
+        "review": 85,
+        "rating": 4.3
+    },
+    {
+        "dressId": 13,
+        "name": "Casual Printed Kurti",
+        "price": 1500,
+        "review": 55,
+        "rating": 4.0
+    },
+    {
+        "dressId": 14,
+        "name": "Luxury Velvet Gown",
+        "price": 6200,
+        "review": 40,
+        "rating": 4.7
+    },
+    {
+        "dressId": 15,
+        "name": "Trendy Off-Shoulder Dress",
+        "price": 2900,
+        "review": 92,
+        "rating": 4.4
+    },
+    {
+        "dressId": 16,
+        "name": "Designer Net Saree",
+        "price": 5400,
+        "review": 67,
+        "rating": 4.5
+    },
+    {
+        "dressId": 17,
+        "name": "Traditional Kameez Set",
+        "price": 3300,
+        "review": 88,
+        "rating": 4.3
+    },
+    {
+        "dressId": 18,
+        "name": "Stylish Long Frock",
+        "price": 2100,
+        "review": 73,
+        "rating": 4.1
+    },
+    {
+        "dressId": 19,
+        "name": "Premium Party Gown",
+        "price": 7200,
+        "review": 58,
+        "rating": 4.6
+    },
+    {
+        "dressId": 20,
+        "name": "Elegant Evening Dress",
+        "price": 3900,
+        "review": 102,
+        "rating": 4.5
+    }
 ]
