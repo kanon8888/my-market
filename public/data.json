@@ -1,142 +1,162 @@
 [
     {
         "dressId": 1,
-        "name": "Elegant Red Gown",
-        "price": 3500,
-        "review": 120,
-        "rating": 4.5
+        "name": "Men's Casual T-Shirt",
+        "price": 1200,
+        "review": 150,
+        "rating": 4.4,
+        "image": "https://i.ibb.co.com/kV927YRX/tesart-1.webp"
     },
     {
         "dressId": 2,
-        "name": "Classic Black Saree",
-        "price": 2800,
-        "review": 95,
-        "rating": 4.3
+        "name": "White Premium Panjabi",
+        "price": 3200,
+        "review": 110,
+        "rating": 4.6,
+        "image": "https://i.ibb.co.com/twV9ZFWh/panjabi-2.jpg"
     },
     {
         "dressId": 3,
-        "name": "Floral Summer Dress",
-        "price": 2200,
-        "review": 80,
-        "rating": 4.2
+        "name": "Casual Cotton Pant",
+        "price": 2600,
+        "review": 75,
+        "rating": 4.0,
+        "image": "https://i.ibb.co.com/9HVFBHbZ/pant-3.jpg"
     },
     {
         "dressId": 4,
-        "name": "Stylish Party Wear",
-        "price": 4000,
-        "review": 150,
-        "rating": 4.7
+        "name": "Men's Casual Hoodie",
+        "price": 8500,
+        "review": 45,
+        "rating": 4.8,
+        "image": "https://i.ibb.co.com/LDX9KPcR/hoodie-4.jpg"
     },
     {
         "dressId": 5,
-        "name": "Casual Cotton Kurti",
-        "price": 1800,
-        "review": 60,
-        "rating": 4.1
+        "name": "Formal Black Pant",
+        "price": 2500,
+        "review": 98,
+        "rating": 4.4,
+        "image": "https://i.ibb.co.com/G3vRKrHR/pant5.jpg"
     },
     {
         "dressId": 6,
-        "name": "Modern Anarkali Suit",
-        "price": 3200,
-        "review": 110,
-        "rating": 4.6
+        "name": "Printed Summer T-Shirt",
+        "price": 1400,
+        "review": 70,
+        "rating": 4.2,
+        "image": "https://i.ibb.co.com/60K7ms7y/tesart-6.jpg"
     },
     {
         "dressId": 7,
-        "name": "Blue Denim Dress",
-        "price": 2600,
-        "review": 75,
-        "rating": 4.0
+        "name": "Men's Slim Fit Chinos",
+        "price": 3700,
+        "review": 85,
+        "rating": 4.3,
+        "image": "https://i.ibb.co.com/JRhq6xZy/pant-7.jpg"
     },
     {
         "dressId": 8,
-        "name": "Pink Bridal Lehenga",
-        "price": 8500,
-        "review": 45,
-        "rating": 4.8
+        "name": "Casual Cotton Pant",
+        "price": 1900,
+        "review": 55,
+        "rating": 4.0,
+        "image": "https://i.ibb.co.com/gb0fqc9w/pant-8.jpg"
     },
     {
         "dressId": 9,
-        "name": "White Embroidered Gown",
-        "price": 5000,
-        "review": 98,
-        "rating": 4.4
+        "name": "Men's Printed Panjabi",
+        "price": 2900,
+        "review": 92,
+        "rating": 4.4,
+        "image": "https://i.ibb.co.com/hJkx7NBY/panjabi-9.jpg"
     },
     {
         "dressId": 10,
-        "name": "Green Silk Saree",
-        "price": 4200,
-        "review": 130,
-        "rating": 4.6
+        "name": "Premium Men's Polo T-Shirt",
+        "price": 1700,
+        "review": 58,
+        "rating": 4.6,
+        "image": "https://i.ibb.co.com/5X2n8xb5/tesart-10.jpg"
     },
     {
         "dressId": 11,
-        "name": "Chiffon Maxi Dress",
-        "price": 3100,
-        "review": 70,
-        "rating": 4.2
+        "name": "Modern Casual Shirt",
+        "price": 2000,
+        "review": 77,
+        "rating": 4.2,
+        "image": "https://i.ibb.co.com/v47L8sX9/shirt-11.jpg"
     },
     {
         "dressId": 12,
-        "name": "Party Wear Sharara",
-        "price": 3700,
-        "review": 85,
-        "rating": 4.3
+        "name": "Comfort Fit Jogger Pant",
+        "price": 2400,
+        "review": 69,
+        "rating": 4.3,
+        "image": "https://i.ibb.co.com/pB5KC2Gm/pant-12.jpg"
     },
     {
         "dressId": 13,
-        "name": "Casual Printed Kurti",
-        "price": 1500,
-        "review": 55,
-        "rating": 4.0
+        "name": "Classic Denim Jacket",
+        "price": 4800,
+        "review": 54,
+        "rating": 4.5,
+        "image": "https://i.ibb.co.com/d4YZ9yrm/jacket-13.jpg"
     },
     {
         "dressId": 14,
-        "name": "Luxury Velvet Gown",
-        "price": 6200,
-        "review": 40,
-        "rating": 4.7
+        "name": "Trendy Oversized T-Shirt",
+        "price": 1600,
+        "review": 81,
+        "rating": 4.4,
+        "image": "https://i.ibb.co.com/9mhhYfgw/tesart-14.jpg"
     },
     {
         "dressId": 15,
-        "name": "Trendy Off-Shoulder Dress",
-        "price": 2900,
-        "review": 92,
-        "rating": 4.4
+        "name": "Slim Fit Formal Shirt",
+        "price": 2700,
+        "review": 90,
+        "rating": 4.6,
+        "image": "https://i.ibb.co.com/XxQwXZr4/shirt-15.jpg"
     },
     {
         "dressId": 16,
-        "name": "Designer Net Saree",
-        "price": 5400,
-        "review": 67,
-        "rating": 4.5
+        "name": "Casual Hoodie",
+        "price": 2300,
+        "review": 63,
+        "rating": 4.3,
+        "image": "https://i.ibb.co.com/4RJ66FGt/hoodie-16.jpg"
     },
     {
         "dressId": 17,
-        "name": "Traditional Kameez Set",
-        "price": 3300,
-        "review": 88,
-        "rating": 4.3
+        "name": "Men's Leather Jacket",
+        "price": 7200,
+        "review": 42,
+        "rating": 4.7,
+        "image": "https://i.ibb.co.com/Q77v9ByJ/jacket-17.jpg"
     },
     {
         "dressId": 18,
-        "name": "Stylish Long Frock",
-        "price": 2100,
-        "review": 73,
-        "rating": 4.1
+        "name": "Striped Polo Shirt",
+        "price": 1800,
+        "review": 55,
+        "rating": 4.2,
+        "image": "https://i.ibb.co.com/Kzmh9K4b/tesart-18.jpg"
     },
     {
         "dressId": 19,
-        "name": "Premium Party Gown",
-        "price": 7200,
-        "review": 58,
-        "rating": 4.6
+        "name": "Slim Fit Chinos",
+        "price": 2500,
+        "review": 68,
+        "rating": 4.5,
+        "image": "https://i.ibb.co.com/TqvDsYDG/pant-19.jpg"
     },
     {
         "dressId": 20,
-        "name": "Elegant Evening Dress",
-        "price": 3900,
-        "review": 102,
-        "rating": 4.5
+        "name": "Men's Casual Shirt",
+        "price": 2200,
+        "review": 79,
+        "rating": 4.3,
+        "image": "https://i.ibb.co.com/RkyhBWzC/shirt-20.jpg"
     }
 ]
