@@ -24,6 +24,14 @@ const Navbar = () => {
                     Product
                 </NavLink>
             </li>
+            <li className='m-2'>
+                <NavLink
+                    to="/coverage"
+                    className="btn btn-outline"
+                >
+                    Coverage
+                </NavLink>
+            </li>
         </>
     );
     return (
