@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaShoppingCart, FaBolt } from "react-icons/fa";
 
 const Dresst = ({ singleDress }) => {
     const { name, image, price, rating, review } = singleDress;
@@ -6,7 +7,7 @@ const Dresst = ({ singleDress }) => {
     return (
         <div>
             <div className="card bg-base-100 w-96 shadow-sm border p-6">
-                
+
                 <figure className='p-4 bg-gray-100 w-2/3 mx-auto'>
                     <img
                         className='h-[180px] object-contain'
@@ -50,11 +51,15 @@ const Dresst = ({ singleDress }) => {
 
                     {/* Buttons Section */}
                     <div className="mt-4 flex gap-3">
-                        <button className="btn btn-outline w-1/2">
+                        {/* Add to Cart */}
+                        <button className="btn btn-outline w-1/2 gap-2 hover:scale-105 transition-all duration-300">
+                            <FaShoppingCart className="text-sm" />
                             Add to Cart
                         </button>
 
-                        <button className="btn btn-primary w-1/2">
+                        {/* Buy Now */}
+                        <button className="btn btn-primary w-1/2 gap-2 shadow-lg hover:shadow-primary/50 hover:scale-105 transition-all duration-300">
+                            <FaBolt className="text-sm" />
                             Buy Now
                         </button>
                     </div>
