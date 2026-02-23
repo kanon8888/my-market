@@ -5,6 +5,7 @@ import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import Home from '../pages/Home/Home';
 import Product from '../pages/Product/Product';
 import Coverage from '../pages/Coverage/Coverage';
+import About from '../pages/About/About';
 
 
 export const router = createBrowserRouter([
@@ -18,6 +19,10 @@ export const router = createBrowserRouter([
         loader: () => fetch("/data.json"),
         path: "/",
         Component: Home,
+      },
+      {
+        path: "about",
+        Component: About
       },
       {
         path: "product",
