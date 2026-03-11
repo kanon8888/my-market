@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import useAuth from '../../../hooks/useAuth';
+import { Link } from 'react-router';
 
 const Register = () => {
 
@@ -20,7 +21,9 @@ const Register = () => {
     }
 
     return (
-        <div>
+
+        <div className="card w-full max-w-sm shrink-0 shadow-2xl">
+            <div className="card-body"></div>
             <form onSubmit={handleSubmit(handleRegistration)}>
                 <fieldset className="fieldset">
                     <label className="label">Email</label>
@@ -28,6 +31,12 @@ const Register = () => {
                         {...register('email', { required: true })}
                         className="input" placeholder="Email" />
                     {errors.email?.type === 'required' && <p className='text-red-500'>Email is required</p>}
+
+                    {/* photo image field  */}
+                    <label className="label">Photo</label>
+
+                    <input type="file" {...register('photo', { required: true })} className="file-input" placeholder="Your Photo" />
+                    {errors.name?.type === 'required' && <p className='text-red-500'>Photo is required</p>}
 
                     {/* password */}
                     <label className="label">Password</label>
@@ -53,6 +62,7 @@ const Register = () => {
                     <div><a className="link link-hover">Forgot password?</a></div>
                     <button className="btn btn-neutral mt-4">Register</button>
                 </fieldset>
+                <p><Link state={location.state} className='text-green-400 text-center underline' to="/login">Login</Link></p>
             </form>
         </div>
     );

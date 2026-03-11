@@ -30,7 +30,7 @@ const Icon = () => {
 
                         <div
                             style={{ animationDelay: step.delay }}
-                            className="w-24 h-24 border border-black rounded-full flex items-center justify-center bg-white text-3xl animate-bounce"
+                            className="w-24 h-24 border border-black rounded-full flex items-center justify-center text-3xl animate-bounce"
                         >
                             {step.icon}
                         </div>
